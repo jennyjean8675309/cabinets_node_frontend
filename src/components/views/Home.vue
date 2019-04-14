@@ -1,5 +1,6 @@
 <template>
-  <div class='home'>
+  <div id='home'>
+    <NavBar></NavBar>
     <h1>{{ message }}</h1>
   </div>
 </template>
@@ -9,15 +10,15 @@ export default {
   name: 'Home',
   data () {
     return {
-      message: 'This is my home page.'
+      message: 'Cabinets of Curiosity'
     }
   }
 }
 </script>
 
-<stye scoped>
-
-h1 {
-  font-family: 'Chalkduster';
-  color: pink;
+<style>
+#home {
+  font-family: 'Arial';
+  color: green;
 }
+</style>
