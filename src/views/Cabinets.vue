@@ -9,7 +9,7 @@ export default {
   name: 'Cabinets',
   data () {
     return {
-      message: 'This is my Cabinets Container.'
+      message: 'This is my cabinets page.'
     }
   }
 }

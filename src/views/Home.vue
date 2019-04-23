@@ -1,6 +1,5 @@
 <template>
   <div id='home'>
-    <NavBar></NavBar>
     <h1>{{ message }}</h1>
   </div>
 </template>
