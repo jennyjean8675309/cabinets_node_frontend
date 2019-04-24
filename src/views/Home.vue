@@ -18,6 +18,8 @@ export default {
 <style>
 #home {
   font-family: 'Arial';
-  color: green;
+  color: white;
+  background-image: url('../assets/cabinet_doors_copy.jpg');
+  height: 500px;
 }
 </style>

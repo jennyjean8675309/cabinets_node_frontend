@@ -44,10 +44,13 @@ export default {
 nav {
   width: 100%;
   background-color: rgb(5, 7, 15);
-  color: white;
+  text-align: right;
+  padding: 15px 0;
 }
 
 nav .route-link {
-  margin: 20px;
+  text-decoration: none;
+  color: white;
+  margin: 40px;
 }
 </style>
